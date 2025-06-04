@@ -1,5 +1,5 @@
 $.ajax({
-  url: 'https://httpapi.com/api/billing/customer-transactions/search.json??auth-userid=0&api-key=key&no-of-records=10&page-no=1',
+  url: 'https://httpapi.com/api/billing/customer-transactions/search.json?auth-userid=0&api-key=key&no-of-records=10&page-no=1',
   type: 'GET', 
   dataType: 'json',
   success: function(data) {
