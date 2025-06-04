@@ -1,5 +1,5 @@
 $.ajax({
-  url: 'https://test.httpapi.com/restapi/product/backorderservice/list.json?auth-userid=0&api-key=key&no-of-records=1&page-no=1&order-by=orderid ',
+  url: 'https://httpapi.com/api/billing/customer-transactions/search.json??auth-userid=0&api-key=key&no-of-records=10&page-no=1',
   type: 'GET', 
   dataType: 'json',
   success: function(data) {
